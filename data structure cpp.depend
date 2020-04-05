@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1584988128 source:c:\users\dell\desktop\data structure cpp\main.cpp
+	<iostream>
+	"queue.h"
+	"stack.h"
+	"linked list.h"
+
+1584979349 c:\users\dell\desktop\data structure cpp\stack.h
+	<iostream>
+
+1584979349 c:\users\dell\desktop\data structure cpp\queue.h
+
+1584988181 c:\users\dell\desktop\data structure cpp\linked list.h
+
