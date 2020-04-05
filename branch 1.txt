@@ -1,1 +1,3 @@
-chekout
+git checkout branch1  //change branchs
+
+git merge branch1   //to merge branch1 to origin 
