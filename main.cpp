@@ -2,8 +2,10 @@
 #include "queue.h"
 #include "stack.h"
 #include "linked list.h"
-#include "trees.h"
-using namespace std;
+//#include "trees.h"
+//using namespace std;
+
+
 
 int main()
 {
