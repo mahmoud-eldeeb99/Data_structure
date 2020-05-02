@@ -22,7 +22,7 @@ top--;
 int top_num(){
 return as[top];
 }
-void print_stack (){
+void print_stack  (){
     cout <<"stack:";
 for (int i=0;i<=top;i++){
 

@@ -1,16 +1,16 @@
 #ifndef QUEUE_H_INCLUDED
 #define QUEUE_H_INCLUDED
 
-#define MAX 10
+#define MAX_q 10
 using namespace std;
-int front=-1,rear=-1;
-int aq[MAX];
+ int front=-1,rear=-1;
+int aq[MAX_q];
 bool IsEmpty(){
 
 return (front==-1&&rear==-1);
 }
 bool IsFull(){
-return ((rear+1)%MAX==front);
+return ((rear+1)%MAX_q==front);
 }
 void enqueue(int x){
 if (IsEmpty()){
@@ -21,7 +21,7 @@ else if (IsFull()) {
 
 }
 else {
-    rear =(rear+1)%MAX;
+    rear =(rear+1)%MAX_q;
 }
 aq[rear]=x;
 }
@@ -30,7 +30,7 @@ if (IsEmpty()){
     cout <<"your queue is emty"<<endl;
 }
 else{
-    front =(front +1)%MAX;
+    front =(front +1)%MAX_q;
 
 }
 

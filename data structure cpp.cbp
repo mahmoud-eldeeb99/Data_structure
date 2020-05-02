@@ -38,6 +38,9 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="queue.h" />
 		<Unit filename="stack.h" />
+		<Unit filename="trees.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

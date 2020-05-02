@@ -2,19 +2,23 @@
 #include "queue.h"
 #include "stack.h"
 #include "linked list.h"
+#include "trees.h"
 using namespace std;
 
 int main()
 {
-head1=NULL;
-cout<<"enter your list numbers"<<endl;
-int n,i,x;
-cin >>n;
-for (i=0;i<n;i++){
-    cout <<"enter num"<<" ";
-    cin >>x;
-    insert1 (x);
-    print1();
-}
+
+BSTNODE*headr==NULL;
+headr= add(headr,15);
+
+headr= add(headr,20);
+headr= add(headr,25);
+cout <<"enter number u wanr to search ";
+
+ int n ;
+ cin>>n;
+if (finding(headr,15)==true<<"found ";
+else  cout <<"not found ";
+
     return 0;
 }
